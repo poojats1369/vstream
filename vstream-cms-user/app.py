@@ -8,7 +8,7 @@ from fastapi_jwt_auth.exceptions import AuthJWTException
 from api.rest import *
 from dotenv import load_dotenv
 
-# Load the .env file
+# Load the .env file.
 load_dotenv()
 
 Base.metadata.create_all(bind=engine)
